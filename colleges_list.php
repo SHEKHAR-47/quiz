@@ -23,11 +23,11 @@ include_once 'includes/header.php';
     <div class="container-fluid mb-5">
         <div class="row pt-3">
             <div class="col-12">
-                <h2 class="section-header">Available Colleges</h2>
+                <h2 class="section-header">Available Hospitals</h2>
                 <?php
                 if(!isset($_SESSION['username'])) {
                 ?>
-                <h5 class="text-muted">Login and Check Quiz to find Qualifying Colleges</h5>
+                <h5 class="text-muted">hospitals for consulataion</h5>
                 <?php } ?>
             </div>
         </div>
@@ -35,14 +35,14 @@ include_once 'includes/header.php';
         <!-- Filter for College Level -->
         <div class="row pt-3">
             <div class="col-3">
-                <label for="collegeLevel">Filter by College Level:</label>
+                <label for="collegeLevel">Filter by location</label>
                 <select class="form-control" id="collegeLevel">
                     <option value="all">All</option>
-                    <option value="elementary">Elementary</option>
-                    <option value="low">Low</option>
-                    <option value="medium">Medium</option>
-                    <option value="high">High</option>
-                    <option value="top">Top</option>
+                    <option value="elementary">mumbai</option>
+                    <option value="low">pune</option>
+                    <option value="medium">delhi</option>
+                    <option value="high">Hyberbad</option>
+                    <option value="top">kolkata</option>
                 </select>
             </div>
         </div>
