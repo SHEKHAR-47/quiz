@@ -51,7 +51,7 @@
                 <li class="nav-item">
                     <a href="<?=ADMIN_URL?>/teachers.php" class="nav-link">
                         <i class="nav-icon fas fa-chalkboard-teacher"></i>
-                        <p>Teachers</p>
+                        <p>Doctors</p>
                     </a>
                 </li>
                 <?php endif; ?>
@@ -77,7 +77,7 @@
                 <li class="nav-item">
                     <a href="<?=ADMIN_URL?>/colleges.php" class="nav-link">
                         <i class="nav-icon fas fa-university"></i>
-                        <p>Colleges</p>
+                        <p>Hospitals</p>
                     </a>
                 </li>
                 <?php endif; ?>
