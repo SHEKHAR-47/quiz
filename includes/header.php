@@ -45,7 +45,7 @@ include_once dirname(__DIR__) . '/bootstrap.php';
                             <a class="nav-link" href="<?=BASE_URL?>/contact.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?=BASE_URL?>/colleges_list.php">Colleges</a>
+                            <a class="nav-link" href="<?=BASE_URL?>/colleges_list.php">Hospitals</a>
                         </li>
                         <?php
                         if(isset($_SESSION['username'])) {
