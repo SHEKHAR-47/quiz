@@ -63,7 +63,7 @@ function getQuizTypeDistribution()
                         <span class="info-box-icon bg-success"><i class="fas fa-users"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Total Students</span>
+                            <span class="info-box-text">Total members</span>
                             <span
                                 class="info-box-number"><?php echo getTotalCount('users', "WHERE userType='STUDENT'"); ?></span>
                         </div>
@@ -71,13 +71,13 @@ function getQuizTypeDistribution()
                     </div>
                     <!-- /.info-box -->
                 </div>
-                <!-- /.col -->
+                <!-- /.col -->      
                 <div class="col-md-3 col-sm-6 col-12">
                     <div class="info-box">
                         <span class="info-box-icon bg-warning"><i class="fas fa-chalkboard-teacher"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Total Teachers</span>
+                            <span class="info-box-text">Total Doctors</span>
                             <span
                                 class="info-box-number"><?php echo getTotalCount('users', "WHERE userType='TEACHER'"); ?></span>
                         </div>
@@ -122,7 +122,7 @@ function getQuizTypeDistribution()
                         <span class="info-box-icon bg-primary"><i class="fas fa-university"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Total Colleges</span>
+                            <span class="info-box-text">Total Hospitals</span>
                             <span class="info-box-number"><?php echo getTotalCount('colleges'); ?></span>
                         </div>
                         <!-- /.info-box-content -->
@@ -130,7 +130,7 @@ function getQuizTypeDistribution()
                     <!-- /.info-box -->
                 </div>
                 <!-- /.col -->
-                <div class="col-md-3 col-sm-6 col-12">
+                <div class="col-md-6 col-sm-6 col-12">
                     <div class="info-box">
                         <span class="info-box-icon bg-dark"><i class="fas fa-puzzle-piece"></i></span>
 
@@ -143,31 +143,31 @@ function getQuizTypeDistribution()
                     <!-- /.info-box -->
                 </div>
                 <!-- /.col -->
-                <div class="col-md-3 col-sm-6 col-12">
+                <!-- <div class="col-md-3 col-sm-6 col-12">
                     <div class="info-box">
                         <span class="info-box-icon bg-secondary"><i class="fas fa-check-circle"></i></span>
 
                         <div class="info-box-content">
                             <span class="info-box-text">Total Passed Quiz Attempts</span>
                             <span class="info-box-number"><?php echo getTotalQuizAttemptsStatus()['passed']; ?></span>
-                        </div>
+                        </div> -->
                         <!-- /.info-box-content -->
-                    </div>
+                    <!-- </div> -->
                     <!-- /.info-box -->
-                </div>
+                <!-- </div> -->
                 <!-- /.col -->
-                <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box">
+                <!-- <div class="col-md-3 col-sm-6 col-12"> -->
+                    <!-- <div class="info-box">
                         <span class="info-box-icon bg-secondary"><i class="fas fa-times-circle"></i></span>
 
                         <div class="info-box-content">
                             <span class="info-box-text">Total Failed Quiz Attempts</span>
                             <span class="info-box-number"><?php echo getTotalQuizAttemptsStatus()['failed']; ?></span>
-                        </div>
+                        </div> -->
                         <!-- /.info-box-content -->
-                    </div>
+                    <!-- </div> -->
                     <!-- /.info-box -->
-                </div>
+                <!-- </div> -->
                 <!-- /.col -->
                 <div class="col-12"></div>
                 <!-- New Chart -->

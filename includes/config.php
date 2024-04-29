@@ -16,7 +16,7 @@ ini_set('error_log', __DIR__ . '/logs/error.log');
 date_default_timezone_set('UTC');
 
 // Other Configurations
-define('SITE_NAME', 'Quiz');
+define('SITE_NAME', 'Depression detection');
 
 // Paths
 define('BASE_URL', 'http://quiz.test');

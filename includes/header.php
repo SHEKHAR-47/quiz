@@ -24,7 +24,7 @@ include_once dirname(__DIR__) . '/bootstrap.php';
                 <a class="navbar-brand" href="<?=BASE_URL?>">
                     <img src="data:image/jpeg;base64,<?= base64_encode($siteSettings['SiteLogo']) ?>" width="45"
                         height="45" class="d-inline-block align-top" alt="">
-                    <?php echo SITE_NAME ?>
+                    <?php echo SITE_NAME  ?>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

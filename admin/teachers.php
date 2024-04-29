@@ -120,8 +120,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- DataTable -->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Teachers</h3>
-                    <button class="btn btn-primary float-right" id="addUserButton">Add Teachers</button>
+                    <h3 class="card-title">Doctors</h3>
+                    <button class="btn btn-primary float-right" id="addUserButton">Add Doctors</button>
                 </div>
                 <div class="card-body">
                     <table id="usersTable" class="table table-bordered table-striped">
